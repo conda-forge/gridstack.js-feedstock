@@ -18,12 +18,15 @@ layouts. It also works great with knockout.js, angular.js, ember.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/gridstack.js-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/gridstack.js-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/gridstack.js-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/gridstack.js-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gridstack.js/badges/version.svg)](https://anaconda.org/conda-forge/gridstack.js)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gridstack.js/badges/downloads.svg)](https://anaconda.org/conda-forge/gridstack.js)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-gridstack.js-green.svg)](https://anaconda.org/conda-forge/gridstack.js) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/gridstack.js.svg)](https://anaconda.org/conda-forge/gridstack.js) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/gridstack.js.svg)](https://anaconda.org/conda-forge/gridstack.js) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/gridstack.js.svg)](https://anaconda.org/conda-forge/gridstack.js) |
 
 Installing gridstack.js
 =======================
