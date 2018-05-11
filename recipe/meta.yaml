@@ -1,6 +1,6 @@
 {% set name = "gridstack.js" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "52878ec080005b2c75b00d810f345d6a1b2148f7e04260ec3170341af9dc68c9" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "f5ac385b2f329db1edb3e2ef1da61c41c02ef6889df93dfad31fbb034cab48ae" %}
 
 package:
   name: {{ name|lower }}
