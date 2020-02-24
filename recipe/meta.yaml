@@ -41,8 +41,3 @@ about:
     layouts. It also works great with knockout.js, angular.js, ember. 
   doc_url: https://github.com/gridstack/gridstack.js
   dev_url: https://github.com/gridstack/gridstack.js
-
-extra:
-  recipe-maintainers:
-    - cshaley
-    - sannykr
