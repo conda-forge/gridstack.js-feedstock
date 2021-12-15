@@ -1,6 +1,6 @@
 {% set name = "gridstack.js" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "51f228a054182c9d056064a0e578f63f2a78b3ad0bd966cb7ed1f708bd5e7999" %}
+{% set version = "3.3.0" %}
+{% set sha256 = "41ac9615899ac73f729eb283f3eaa4067911695142904e302de6e7e949eb4c5e" %}
 
 package:
   name: {{ name|lower }}
@@ -20,20 +20,20 @@ build:
 requirements:
   build:
     - nodejs
-  
+
 test:
   commands:
     - npm list -g gridstack
   requires:
     - nodejs
-   
+
 
 about:
   home: https://github.com/gridstack/gridstack.js
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'gridstack.js is a jQuery plugin for widget layout'
+  summary: gridstack.js is a jQuery plugin for widget layout
   description: |
     gridstack.js is a mobile-friendly Javascript library for dashboard layout and 
     creation. Making a drag-and-drop, multi-column dashboard has never been easier. 
