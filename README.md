@@ -5,9 +5,13 @@ Home: https://github.com/gridstack/gridstack.js
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gridstack.js-feedstock/blob/master/LICENSE.txt)
 
 Summary: gridstack.js is a jQuery plugin for widget layout
+
+Development: https://github.com/gridstack/gridstack.js
+
+Documentation: https://github.com/gridstack/gridstack.js
 
 gridstack.js is a mobile-friendly Javascript library for dashboard layout and
 creation. Making a drag-and-drop, multi-column dashboard has never been easier.
@@ -42,6 +46,7 @@ Installing `gridstack.js` from the `conda-forge` channel can be achieved by addi
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `gridstack.js` can be installed with:
@@ -60,7 +65,8 @@ conda search gridstack.js --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -112,14 +118,12 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
 =====================
 
-* [@cshaley](https://github.com/cshaley/)
-* [@sannykr](https://github.com/sannykr/)
 
